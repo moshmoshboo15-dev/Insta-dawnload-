@@ -1,0 +1,6 @@
+{
+  "name": "MediaGrab",
+  "description": "تطبيق أندرويد لتنزيل الصور والفيديوهات من الروابط وحالات واتساب مع دعم الخلفية والمعرض.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

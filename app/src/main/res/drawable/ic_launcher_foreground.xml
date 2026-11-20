@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Subtle drop shadow behind the emblem -->
+    <path
+        android:fillColor="#33000000"
+        android:pathData="M34,34 L74,34 Q78,34 78,38 L78,74 Q78,78 74,78 L34,78 Q30,78 30,74 L30,38 Q30,34 34,34 Z" />
+    <!-- Outer media frame -->
+    <path
+        android:pathData="M35,31 L73,31 Q77,31 77,35 L77,71 Q77,75 73,75 L35,75 Q31,75 31,71 L31,35 Q31,31 35,31 Z"
+        android:strokeWidth="4.2"
+        android:strokeColor="#10B981"
+        android:fillColor="#0F1C22" />
+    <!-- Bold downward download arrow -->
+    <path
+        android:pathData="M50,38 L58,38 L58,52 L65,52 L54,64 L43,52 L50,52 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="54"
+                android:endY="64"
+                android:startX="54"
+                android:startY="38"
+                android:type="linear">
+                <item
+                    android:color="#34D399"
+                    android:offset="0.0" />
+                <item
+                    android:color="#06B6D4"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Bottom media tray bar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M41,66 L67,66 Q69,66 69,68 Q69,70 67,70 L41,70 Q39,70 39,68 Q39,66 41,66 Z" />
+</vector>
